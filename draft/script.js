@@ -1,11 +1,11 @@
 // function
-function greet(name, callback) {
+const greet = (name, callback) => {
   console.log('Hi, my name is ' + name);
   callback();
 }
 
 // callback function
-function callMe() {
+const callMe = () => {
   console.log('hello from callback function');
 }
 
