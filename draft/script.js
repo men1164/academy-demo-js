@@ -1,14 +1,11 @@
-// Step
-// Open vscode
-// Create .html file
-// Create .js file
-// Autocomplete html
-// <script> with .js file
-// Try console.log
-// Save
-// Show at the browser
-// Show change code and refresh browser
-// Live server
-// Try change code and save
+const list = [1, 2, 3, 4, 5];
 
-console.log("Hello world")
+const newList = list.map((value) => {
+  return value * 2;
+})
+
+console.log(newList)
+
+
+// ? มีใครบอกได้บ้าง ว่า forEach กับ map ต่างกันยังไง
+// The map() method is used to transform the elements of an array, whereas the forEach() method is used to loop through the elements of an array.
