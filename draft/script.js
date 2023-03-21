@@ -1,14 +1,19 @@
-// Step
-// Open vscode
-// Create .html file
-// Create .js file
-// Autocomplete html
-// <script> with .js file
-// Try console.log
-// Save
-// Show at the browser
-// Show change code and refresh browser
-// Live server
-// Try change code and save
+// function
+function greet(name, callback) {
+  console.log('Hi, my name is ' + name);
+  callback();
+}
 
-console.log("Hello world")
+// callback function
+function callMe() {
+  console.log('hello from callback function');
+}
+
+// passing function as an argument
+greet('John', callMe);
+
+
+// another way to write callback function
+greet('Men', () => {
+  console.log('hello from another callback function')
+})
