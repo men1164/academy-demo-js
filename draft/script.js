@@ -2,7 +2,7 @@ for(let i = 0; i < 5; i++) {
   console.log(i)
 }
 
-// ! Tricky ต้องเมคชัวร์ว่าสรุปเราอยากได้ loop กี่รอบ
+// ! Tricky ต้องเมคชัวร์ว่าสรุปเราอยากได้ loop กี่รอบ ต้องกำหนด initial i เท่าไหร่ condition เท่าไหร่
 for(let i = 1; i <= 5; i++) {
   console.log(i)
 }
@@ -14,7 +14,25 @@ for(let i = 3; i >= 0; i--) {
 }
 
 
+// * Nested loop
+for(let i = 0; i < 3; i++) {
+  console.log("i", i)
+  for(let j = 0; j < 3; j++) {
+    console.log("j", j)
+  }
+}
+// ? let they guess the output line by line, give some hints
+// i 0
+// j 0
+// j 1
+// j 2
+// i 1
+// j 0
+// j 1
+// j 2
 
+
+// * Loop through array
 const tripLocation = ['London', 'Bali', 'Amsterdam'];
 
 for (let i = 0; i < tripLocation.length; i++){
