@@ -33,8 +33,17 @@ for(let i = 0; i < 3; i++) {
 
 
 // * Loop through array
-const tripLocation = ['London', 'Bali', 'Amsterdam'];
+const tripLocation = ['London', 'Bali', 'Amsterdam', 'Paris'];
 
 for (let i = 0; i < tripLocation.length; i++){
   console.log(tripLocation[i]);
+}
+
+
+// * Break keyword
+for (let i = 0; i < tripLocation.length; i++){
+  console.log(tripLocation[i]);
+  if(tripLocation[i] === 'Bali') {
+    break
+  }
 }
