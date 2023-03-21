@@ -12,3 +12,11 @@ console.log('Name:', person["age"])
 
 console.log('Pet kind:', person.pet.kind)
 console.log('Pet age:', person.pet.age)
+
+
+// * Reference type
+const person2 = person
+person2.name  = "Men"
+
+console.log(person)
+console.log(person2)
