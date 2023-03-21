@@ -7,8 +7,8 @@ for (let i = 0; i < tripLocation.length; i++){
 
 // * I'm gonna do the same thing with .forEach() method
 // * forEach calls the callbackfn function one time for each element in the array.
-tripLocation.forEach((location) => {
-  console.log(location)
+tripLocation.forEach((location, idx) => {
+  console.log(idx, location) // ! เพิ่ม index หลัง demo
 })
 
 // ! ไม่ได้บอกว่า for loop ไม่จำเป็นหรือจะไม่ได้ใช้ เพียงแต่ถ้าอยากให้โค้ดทำงานแบบนี้หรือ use case แบบนี้เราสามารถเขียนอีกท่าได้
