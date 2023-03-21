@@ -8,6 +8,13 @@ for(let i = 1; i <= 5; i++) {
 }
 
 
+// * Looping in reverse
+for(let i = 3; i >= 0; i--) {
+  console.log(i)
+}
+
+
+
 const tripLocation = ['London', 'Bali', 'Amsterdam'];
 
 for (let i = 0; i < tripLocation.length; i++){
