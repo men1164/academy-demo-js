@@ -1,14 +1,14 @@
-// Step
-// Open vscode
-// Create .html file
-// Create .js file
-// Autocomplete html
-// <script> with .js file
-// Try console.log
-// Save
-// Show at the browser
-// Show change code and refresh browser
-// Live server
-// Try change code and save
+// ! Remind them of this code
+const tripLocation = ['London', 'Bali', 'Amsterdam', 'Paris']
 
-console.log("Hello world")
+for (let i = 0; i < tripLocation.length; i++){
+  console.log(tripLocation[i]);
+}
+
+// * I'm gonna do the same thing with .forEach() method
+// * forEach calls the callbackfn function one time for each element in the array.
+tripLocation.forEach((location) => {
+  console.log(location)
+})
+
+// ! ไม่ได้บอกว่า for loop ไม่จำเป็นหรือจะไม่ได้ใช้ เพียงแต่ถ้าอยากให้โค้ดทำงานแบบนี้หรือ use case แบบนี้เราสามารถเขียนอีกท่าได้
