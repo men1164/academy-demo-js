@@ -35,5 +35,8 @@ countValue
   })
   // ! Change if to false, get reject first
   .catch(err => {
-  console.log(err)
+    console.log(err)
+  })
+  .finally(() => {
+    console.log('Finally!')
   })
