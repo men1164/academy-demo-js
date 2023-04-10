@@ -10,3 +10,7 @@ console.log(myArr)
 // ! อย่าลืมสอนวิธีดู doc แบบเร็ว ๆ ใน vscode ด้วย
 console.log(myArr.slice(1, 3))
 console.log(myArr.indexOf(22))
+
+
+// ! ไม่พ่น error ออกมา เป็น undefined
+console.log(myArr[10])
