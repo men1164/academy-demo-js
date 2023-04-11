@@ -14,6 +14,3 @@ console.log(myArr)
 // ! อย่าลืมสอนวิธีดู doc แบบเร็ว ๆ ใน vscode ด้วย
 console.log(myArr.slice(1, 3))
 console.log(myArr.indexOf(22))
-
-// ! ให้ดูด้วยว่ามันพ่น error ออกมาที่ console ยังไง
-myArr = ["asd", 12, 12313]
