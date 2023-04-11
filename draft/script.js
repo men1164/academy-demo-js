@@ -7,7 +7,8 @@ console.log("My age:", myArr[1])
 console.log(myArr[10])
 
 
-myArr.push('Wed', 2000)
+myArr.push('Wed')
+myArr.push(2000)
 
 console.log(myArr)
 
