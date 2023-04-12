@@ -1,19 +1,22 @@
 // function
-const greet = (name, callback) => {
-  console.log('Hi, my name is ' + name);
-  callback();
+// ! Remind them about Arrow function
+// function greeting (callback) {
+//   console.log(`hello world`)
+//   callback()
+// }
+
+const greeting = (callback) => {
+  console.log(`hello world`)
+  callback()
 }
 
-// callback function
 const callMe = () => {
-  console.log('hello from callback function');
+  console.log(`hello from callback function`)
 }
 
-// passing function as an argument
-greet('John', callMe);
+// greeting(callMe)
 
-
-// another way to write callback function
-greet('Men', () => {
-  console.log('hello from another callback function')
+// ! Another way to pass in a function
+greeting(() => {
+  console.log("hello from another callback function")
 })
