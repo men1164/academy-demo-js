@@ -1,9 +1,9 @@
-for(let i = 0; i < 5; i++) {
+for(let i = 1; i <= 5; i++) {
   console.log(i)
 }
 
 // ! Tricky ต้องเมคชัวร์ว่าสรุปเราอยากได้ loop กี่รอบ ต้องกำหนด initial i เท่าไหร่ condition เท่าไหร่
-for(let i = 1; i <= 5; i++) {
+for(let i = 0; i < 5; i++) {
   console.log(i)
 }
 
