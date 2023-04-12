@@ -47,3 +47,11 @@ for (let i = 0; i < tripLocation.length; i++){
     break
   }
 }
+
+
+// * While loop
+let i = 0
+while(i < 5) {
+  console.log(i)
+  i++ // ! Don't forget to update expression, otherwise it will be an infinite loop
+}
