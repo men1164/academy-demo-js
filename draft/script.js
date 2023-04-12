@@ -3,7 +3,7 @@ const myArr = ["Men", 22]
 console.log("My name:", myArr[0])
 console.log("My age:", myArr[1])
 
-// ! ไม่พ่น error ออกมา เป็น undefined
+// ! undefined
 console.log(myArr[10])
 
 
@@ -13,13 +13,15 @@ myArr.push(2000)
 console.log(myArr)
 
 
-// ! อย่าลืมสอนวิธีดู doc แบบเร็ว ๆ
-// * slice return array ใหม่ ไม่ได้แก้ array เดิมเหมือน push
+// ! สอนวิธีดู doc แบบเร็ว ๆ
+// * slice จะ return array ใหม่ ไม่ได้แก้ array เดิมเหมือน push
 const sliced = myArr.slice(1, 3)
 
-console.log("sliced:", sliced)
+console.log("sliced:", sliced) // * เผื่อเอา array ก้อนใหม่นี้ไปใช้ต่อ
 console.log("my array:", myArr)
 
+// * อันนี้ก็ return ค่ากลับมาเหมือนกัน จะเอาตัวแปรมารับเหมือน slice ข้างบนก็ได้
+// * ให้ดู objective เป็นหลัก ว่าต้องการเอาค่านี้ไปใช้ต่อหรือไม่ -> ตัดสินใจว่าจะสร้างตัวแปรมารับหรือไม่
 console.log(myArr.indexOf(22))
 
 
@@ -35,5 +37,5 @@ console.log("new array:", newArr)
 // * Exercise
 // ? Create an array that contain 4 foods that you like. Then complete these following tasks.
 // ? 1. Remove your least 2 favorite food from the array. Print it to the console.
-// ? 2. Locate your most favorite food in the array using .indexOf(). Print its array index to the console.
+// ? 2. Locate your most favorite food in the array. Print its array index to the console.
 // ? 3. Add your 3 favorite desserts or fruits into that array. Print the result to the console.
