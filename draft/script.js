@@ -55,3 +55,14 @@ while(i < 5) {
   console.log(i)
   i++ // ! Don't forget to update expression, otherwise it will be an infinite loop
 }
+
+
+
+// ? Exercise: 
+// ? Write a code that will loop from 0 to 15. For each loop, it will check if the current number is odd or even, and display a message to the console.
+
+// Example Output:
+// > 0 is even
+// > 1 is odd
+// > 2 is even
+// > 3 is odd
