@@ -1,10 +1,10 @@
-// function
-// ! Remind them about Arrow function
+// * normal function
 // function greeting (callback) {
-//   console.log(`hello world`)
-//   callback()
-// }
-
+  //   console.log(`hello world`)
+  //   callback()
+  // }
+  
+// ! Remind them about Arrow function
 const greeting = (callback) => {
   console.log(`hello world`)
   callback()
