@@ -1,4 +1,4 @@
-function callMe () {
+function callMe() {
   console.log(`hello from callback function`)
 }
 
