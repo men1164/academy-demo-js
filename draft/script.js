@@ -7,16 +7,16 @@
 // ! Remind them about Arrow function
 const greeting = (callback) => {
   console.log(`hello world`)
-  callback()
+  callback("Men")
 }
 
-const callMe = () => {
-  console.log(`hello from callback function`)
+const callMe = (name) => {
+  console.log(`hello ${name} from callback function`)
 }
 
 // greeting(callMe)
 
 // ! Another way to pass in a function
-greeting(() => {
-  console.log("hello from another callback function")
+greeting((name) => {
+console.log(`hello ${name} from another callback function`)
 })
