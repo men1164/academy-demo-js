@@ -13,8 +13,9 @@ myArr.push(2000)
 console.log(myArr)
 
 
-// ! สอนวิธีดู doc แบบเร็ว ๆ
-// * slice จะ return array ใหม่ ไม่ได้แก้ array เดิมเหมือน push
+// ! สอนวิธีดู doc แบบเร็ว ๆ เปิดกลับไปสไลด์
+// * ไม่ได้แก้ array เดิมเหมือนที่ผ่านมา
+// * slice จะ return array ใหม่
 const sliced = myArr.slice(1, 3)
 
 console.log("sliced:", sliced) // * เผื่อเอา array ก้อนใหม่นี้ไปใช้ต่อ
