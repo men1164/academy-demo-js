@@ -1,14 +1,32 @@
-// ! Remind them of this code
 const tripLocation = ['London', 'Bali', 'Amsterdam', 'Paris']
 
-for (let i = 0; i < tripLocation.length; i++){
-  console.log(tripLocation[i]);
-}
-
-// * I'm gonna do the same thing with .forEach() method
-// * forEach calls the callbackfn function one time for each element in the array.
 tripLocation.forEach((location, idx) => {
-  console.log(idx, location) // ! เพิ่ม index หลัง demo
+  console.log(idx, location)
+})
+// ! ไม่ได้บอกว่า for loop จะไม่ได้ใช้ เพียงแต่ถ้าอยากให้โค้ดทำงานแบบนี้ หรือ use case แบบนี้ เราสามารถเขียนท่านี้ได้
+
+
+const list = [1, 2, 3, 4, 5]
+
+// * .map()
+const newList = list.map((value) => {
+  return value * 2
 })
 
-// ! ไม่ได้บอกว่า for loop จะไม่ได้ใช้ เพียงแต่ถ้าอยากให้โค้ดทำงานแบบนี้ หรือ use case แบบนี้ เราสามารถเขียนท่านี้ได้
+console.log(newList)
+
+
+// * .filter()
+const filtered = list.filter((value) => {
+  return value % 2 === 0
+})
+
+console.log(filtered)
+
+
+// * .reduce()
+const sum = list.reduce((prevVal, value) => {
+  return prevVal + value
+})
+
+console.log(sum)
