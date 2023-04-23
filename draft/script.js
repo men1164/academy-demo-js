@@ -5,31 +5,31 @@ setTimeout(() => {
 
 
 // * Then promise, assume that setTimeOut is fetching data from database that takes 3 seconds to load.
-let countValue = new Promise((resolve, reject)=> {
+let data = new Promise((resolve, reject)=> {
   setTimeout(() => {
     if (true) {
       // * If fetch success
-      resolve("There is a count value.");
+      resolve("Found a data.");
     } else {
       // ! If fetch failed
-      reject("There is no count value");
+      reject("Data not found");
     }
   }, 3000)
 })
 
-console.log(countValue)
+console.log(data)
 // * To show that it is parallel
 console.log("Hello")
 
 
 // * Wait for 3 seconds, it should fullfilled
 setTimeout(() => {
-  console.log(countValue)
+  console.log(data)
 }, 3000)
 
 
 // * Access to returned value
-countValue
+data
   .then(res => {
     console.log(res)
   })
@@ -38,5 +38,5 @@ countValue
     console.log(err)
   })
   .finally(() => {
-    console.log('Finally!')
+    console.log('Done!')
   })
