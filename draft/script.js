@@ -39,6 +39,14 @@ while(i < 5) {
   i++ // ! Don't forget to update expression, otherwise it will be an infinite loop
 }
 
+// * While loop is use to repeat a specific block of code an unknown number of times, until a condition is met.
+let count = 1
+while(count < 100) {
+  count = count + 2
+  // count += 2
+}
+console.log(count)
+
 
 // * Nested loop
 for(let i = 0; i < 3; i++) {
