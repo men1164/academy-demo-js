@@ -18,7 +18,7 @@ console.log(newPrices)
 
 // * .filter()
 const filtered = prices.filter((price) => {
-  return price > 40
+  return price > 30
 })
 
 console.log(filtered)
