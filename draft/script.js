@@ -17,11 +17,11 @@ console.log(newPrices)
 
 
 // * .filter()
-const filtered = prices.filter((price) => {
+const premiumPrices = prices.filter((price) => {
   return price > 30
 })
 
-console.log(filtered)
+console.log(premiumPrices)
 
 
 // * .reduce()
